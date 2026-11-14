@@ -69,5 +69,18 @@ namespace TecnoPunto
         {
             get { return _precio * _cantidad; }
         }
+
+        public Producto(string codigo, string nombre, double precio, int cantidad)
+        {
+            Codigo = codigo;
+            Nombre = nombre;
+            Precio = precio;
+            Cantidad = cantidad;
+        }
+
+        public void MostrarInfo()
+        {
+            Console.WriteLine($"Codigo: {Codigo,-8} \nNombre: {Nombre,-15} \nPrecio: ${Precio,8:N2} \nCantidad: {Cantidad,4} \nTotal: ${ValorTotal,10:N2}");
+        }
     }
 }
