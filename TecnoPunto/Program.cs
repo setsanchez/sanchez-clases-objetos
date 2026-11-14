@@ -45,7 +45,7 @@
             double precio;
             while (true)
             {
-                Console.Write("Ingrese el precio (&gt; 0): ");
+                Console.Write("Ingrese el precio: ");
                 if (double.TryParse(Console.ReadLine(), out precio) && precio > 0)
                 {
                     break;

@@ -6,11 +6,13 @@ namespace TecnoPunto
 {
     public class Producto
     {
+        //Atributos
         private string _codigo;
         private string _nombre;
         private double _precio;
         private int _cantidad;
 
+        //métodos de acceso `get` y `set`
         public string Codigo
         {
             get { return _codigo;  }
@@ -70,6 +72,7 @@ namespace TecnoPunto
             get { return _precio * _cantidad; }
         }
 
+        //Constructor
         public Producto(string codigo, string nombre, double precio, int cantidad)
         {
             Codigo = codigo;
