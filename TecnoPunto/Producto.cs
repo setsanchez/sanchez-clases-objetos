@@ -83,7 +83,7 @@ namespace TecnoPunto
 
         public void MostrarInfo()
         {
-            Console.WriteLine($"Codigo: {Codigo,-8} \nNombre: {Nombre,-15} \nPrecio: ${Precio,8:N2} \nCantidad: {Cantidad,4} \nTotal: ${ValorTotal,10:N2}");
+            Console.WriteLine($"Código: {Codigo,-8} \nNombre: {Nombre,-15} \nPrecio: ${Precio,8:N2} \nCantidad: {Cantidad,4} \nTotal: ${ValorTotal,10:N2}");
         }
     }
 }
