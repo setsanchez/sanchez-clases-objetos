@@ -56,7 +56,7 @@
             int cantidad;
             while (true)
             {
-                Console.WriteLine("Ingrese la cantidad en existencia: ");
+                Console.Write("Ingrese la cantidad en existencia: ");
                 if (int.TryParse(Console.ReadLine(), out cantidad) && cantidad >= 0)
                 {
                     break;

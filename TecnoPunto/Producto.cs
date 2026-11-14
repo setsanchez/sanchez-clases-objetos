@@ -12,7 +12,7 @@ namespace TecnoPunto
         private double _precio;
         private int _cantidad;
 
-        //métodos de acceso `get` y `set`
+        // Propiedades de acceso (get y set) y validaciones
         public string Codigo
         {
             get { return _codigo;  }
