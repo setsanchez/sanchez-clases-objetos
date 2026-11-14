@@ -35,5 +35,7 @@ El sistema solicita por teclado los siguientes datos para cada uno de los 3 prod
 
 	• Capturas de la Ejecución
 
-1. Datos Válidos: (imagenes/valido.png)
-
+1. **Datos Válidos y el resultado:** (imagenes/valido.png) (imagenes/resultado.png).
+2. **Validación de Precio Negativo:** (imagenes/precio_negativo.png).
+3. **Validación de Nombre Vacío:** (imagenes/nombre_vacio.png).
+4. **Ingreso de Cantidad Cero:** (imagenes/cantidad_cero.png) en este caso el programa acepta el dato y continua con el siguiente producto.
